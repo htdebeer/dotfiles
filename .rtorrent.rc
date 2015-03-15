@@ -1,0 +1,15 @@
+
+session = ~/Downloads/.session
+session_save =
+
+schedule = watch_directory,0,10,load_start=/home/ht/Downloads/WATCH_TORRENTS/*.torrent
+schedule = tied_Directory,0,10,start_tied=
+schedule = untied_directory,0,10,close_untied=
+
+directory = /home/ht/Downloads
+
+upload_rate = 5
+download_rate = 1000
+
+max_peers_seed = 2
+max_uploads = 5
