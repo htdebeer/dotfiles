@@ -6,7 +6,7 @@ schedule = watch_directory,0,10,load_start=/home/ht/Downloads/WATCH_TORRENTS/*.t
 schedule = tied_Directory,0,10,start_tied=
 schedule = untied_directory,0,10,close_untied=
 
-directory = /home/ht/Downloads
+directory = ~/Downloads
 
 upload_rate = 5
 download_rate = 1000
