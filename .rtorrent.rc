@@ -2,7 +2,7 @@
 session = ~/Downloads/.session
 session_save =
 
-schedule = watch_directory,0,10,load_start=/home/ht/Downloads/WATCH_TORRENTS/*.torrent
+schedule = watch_directory,0,10,load_start=~/Downloads/WATCH_TORRENTS/*.torrent
 schedule = tied_Directory,0,10,start_tied=
 schedule = untied_directory,0,10,close_untied=
 
